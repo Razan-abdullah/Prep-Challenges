@@ -33,13 +33,13 @@ const findMax =(arr) => {
 //  Inside the array (there could be strings), without using built-in methods (You can use `typeof`)
 //
 //  Input: [20, '234', 'car', 41, 20, 'chair']
-//  Output: 81
+//  Output: ::81
 const sumNums = (arr) => {
   let sum;
   // write your code here
   for (let i=0 ;i<arr.length;i++){
-if (typeof arr[i]==="number")
-sum+=arr[i];}
+if (typeof( arr[i])==number)
+sum=sum+arr[i];}
     return sum;
 };
 // -------------------------------------------------------------------------------------------------------

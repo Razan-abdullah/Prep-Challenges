@@ -10,9 +10,7 @@ describe("Challenge 01", () => {
   });
 
   test("Sum of Numbers", () => {
-    expect(sumNums([78, "sad", 45, "hungry", "agony", 23, 10])).toStrictEqual(
-      156
-    );
+    expect(sumNums([78, "sad", 45, "hungry", "agony", 23, 10])).toStrictEqual(156);
     expect(sumNums([20, "234", "car", 41, 20, "chair"])).toStrictEqual(81);
     expect(sumNums([88, 10, 10, 46, 71])).toStrictEqual(225);
   });
