@@ -7,7 +7,7 @@
 //  Write a function that takes an array and returns the maximum value in the provided array.
 //  Without using build-in methods.
 //
-//  Input: [12, 32, 22, 45, 78, 12, 50]
+//  Input:  [12, 32, 22, 45, 78, 12, 50]
 //  Output: 78
 
 const findMax =(arr) => {
@@ -38,7 +38,7 @@ const sumNums = (arr) => {
   let sum;
   // write your code here
   for (let i=0 ;i<arr.length;i++){
-if (typeof( arr[i])==number)
+if (typeof( arr[i])==="number")
 sum=sum+arr[i];}
     return sum;
 };
