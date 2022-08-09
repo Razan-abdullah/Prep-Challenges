@@ -35,7 +35,21 @@ const findMax =(arr) => {
 //  Input: [20, '234', 'car', 41, 20, 'chair']
 //  Output: ::81
 const sumNums = (arr) => {
+let sum=0;
+for (let num of arr){
+if(typeof(num)!="number")
+{
+  continue;
+}
 
+else{
+sum+=num;
+
+}
+
+}
+
+return sum;
 };
 // -------------------------------------------------------------------------------------------------------
 
